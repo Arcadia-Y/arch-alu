@@ -20,10 +20,8 @@ module PG (
     output p,
     output g
 );
-
     assign p = a ^ b;
     assign g = a & b;
-
 endmodule
 
 // PGM generator
